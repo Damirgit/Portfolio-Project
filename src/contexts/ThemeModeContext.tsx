@@ -5,8 +5,8 @@ import { useDarkMode } from "../hooks/useDarkMode";
 import { darkTheme, lightTheme } from "../styles/theme";
 
 interface IThemeModeContext {
-  theme: typeof darkTheme | typeof lightTheme;
-  toggleTheme: any;
+  theme?: typeof darkTheme | typeof lightTheme;
+  toggleTheme?: any;
   children?: React.ReactNode;
 }
 
