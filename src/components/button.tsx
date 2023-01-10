@@ -10,6 +10,7 @@ interface IButton {
   target?: string;
   rel?: string;
   download?: boolean;
+  children?: React.ReactNode;
 }
 
 const Button: React.FC<IButton> = ({
