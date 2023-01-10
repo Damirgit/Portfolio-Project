@@ -14,9 +14,6 @@ export const StyledTechStacks = styled(motion.div)`
     color: ${({ theme }) => theme.textSecond};
   }
 
-  .soft-skills {
-    margin-top: 50px;
-  }
 `;
 
 export const StyledTech = styled(motion.div)`

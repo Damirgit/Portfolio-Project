@@ -9,8 +9,6 @@ import {
   AiOutlineInstagram,
   AiFillGithub,
   AiFillApi,
-  AiOutlineTeam,
-  AiFillMessage,
   AiFillHtml5,
 } from "react-icons/ai";
 import {
@@ -20,8 +18,6 @@ import {
   FiFacebook,
   FiFigma,
 } from "react-icons/fi";
-import { GiPlayerTime, GiThink } from "react-icons/gi";
-import { BsArrowRepeat } from "react-icons/bs";
 import { IoLogoSass } from "react-icons/io";
 import { GrGraphQl } from "react-icons/gr";
 import {
@@ -31,15 +27,7 @@ import {
   SiJavascript,
   SiStyledcomponents,
 } from "react-icons/si";
-import {
-  FaReact,
-  FaGitAlt,
-  FaAssistiveListeningSystems,
-  FaFistRaised,
-  FaHandHoldingHeart,
-  FaPuzzlePiece,
-  FaDocker,
-} from "react-icons/fa";
+import { FaReact, FaGitAlt, FaDocker } from "react-icons/fa";
 
 export const navLinks: INavLinks = {
   home: [
@@ -138,60 +126,12 @@ export const skills: ISkills[] = [
   },
 ];
 
-export const softSkills: ISkills[] = [
-  {
-    id: "teamplayer",
-    name: "Team Player",
-    Icon: AiOutlineTeam,
-  },
-  {
-    id: "fast-independent",
-    name: "Fast and Independent Learner",
-    Icon: GiPlayerTime,
-  },
-  {
-    id: "adaptive",
-    name: "Adaptive",
-    Icon: BsArrowRepeat,
-  },
-  {
-    id: "listener",
-    name: "Listener",
-    Icon: FaAssistiveListeningSystems,
-  },
-  {
-    id: "highly-motivated",
-    name: "Highly Motivated",
-    Icon: FaFistRaised,
-  },
-  {
-    id: "passionate",
-    name: "Passionate",
-    Icon: FaHandHoldingHeart,
-  },
-  {
-    id: "communication",
-    name: "Communication",
-    Icon: AiFillMessage,
-  },
-  {
-    id: "critical-thinker",
-    name: "Critical Thinker",
-    Icon: GiThink,
-  },
-  {
-    id: "problem-solver",
-    name: "Problem Solver",
-    Icon: FaPuzzlePiece,
-  },
-];
-
 export const customSeo: CustomSeoProps = {
   description:
     "Hi! I am Damir Fejzula, junior web developer based in Skopje,North Macedonia. I started my jurney in october of 2021, one year later i'm still here",
   title: "Damir Fejzula",
-  image: "https://zomeru.com/assets/OG.png",
-  url: "https://zomeru.com/",
+  image: "/assets/projects/Porfolio.png",
+  url: "https://damirfejzula.com/",
   twitterUsername: "@Damir_fejzula",
 };
 
@@ -207,7 +147,7 @@ export const nextSeo = {
       "Hi! I am Damir Fejzula, junior web developer based in Skopje,North Macedonia. I started my jurney in october of 2021, one year later i'm still here",
     images: [
       {
-        url: "https://zomeru.com/assets/OG.png",
+        image: "/assets/projects/Porfolio.png",
       },
     ],
     site_name: "Damir Fejzula",
@@ -245,11 +185,7 @@ export const projects: IProjects[] = [
     image: "/assets/projects/todo.png",
     alt: "todo app",
     info: "todo app that shows vanila js skills",
-    techs: [
-      "Javascript",
-      "HTML",
-      "Css",
-    ],
+    techs: ["Javascript", "HTML", "Css"],
     links: {
       github: "https://github.com/Damirgit/crypto",
     },
@@ -259,27 +195,27 @@ export const projects: IProjects[] = [
 export const socialLinks: ISocialLinks[] = [
   {
     name: "Facebook",
-    url: "/facebook",
+    url: "https://www.facebook.com/fejzula6",
     Icon: FiFacebook,
   },
   {
     name: "Instagram",
-    url: "/instagram",
+    url: "https://www.instagram.com/damir_fejzula/",
     Icon: AiOutlineInstagram,
   },
   {
     name: "Twitter",
-    url: "/twitter",
+    url: "https://twitter.com/damirfejzula",
     Icon: FiTwitter,
   },
   {
     name: "Linkedin",
-    url: "/linkedin",
+    url: "https://mk.linkedin.com/in/damir-fejzula-b48013252",
     Icon: FiLinkedin,
   },
   {
     name: "Github",
-    url: "/github",
+    url: "https://github.com/Damirgit",
     Icon: FiGithub,
   },
 ];

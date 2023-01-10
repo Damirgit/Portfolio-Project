@@ -27,7 +27,6 @@ const Nav: React.FC<INavProps> = ({ isHome }) => {
     };
   }, [curScrollPos]);
 
-  //? ANIMATIONS
   const navVariants: Variants = {
     hidden: { opacity: isHome ? 0 : 1 },
     visible: {
@@ -92,7 +91,6 @@ const Nav: React.FC<INavProps> = ({ isHome }) => {
         </motion.span>
         <StyledLinks>
           <ul>
-            {/* @ts-ignore */}
             {navLinks[`${isHome ? "home" : "otherPage"}`].map(
               ({ url, name }: NavLinksProps, i: number) => {
                 return (

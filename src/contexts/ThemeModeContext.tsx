@@ -9,7 +9,6 @@ interface IThemeModeContext {
   toggleTheme?: any;
   children?: React.ReactNode;
 }
-
 export const ThemeModeContext = createContext({} as IThemeModeContext);
 
 export const ThemeModeProvider: React.FC<IThemeModeContext> = ({
