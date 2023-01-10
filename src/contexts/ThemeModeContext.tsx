@@ -7,11 +7,14 @@ import { darkTheme, lightTheme } from "../styles/theme";
 interface IThemeModeContext {
   theme: typeof darkTheme | typeof lightTheme;
   toggleTheme: any;
+  children?: React.ReactNode;
 }
 
 export const ThemeModeContext = createContext({} as IThemeModeContext);
 
-export const ThemeModeProvider: React.FC = ({ children }) => {
+export const ThemeModeProvider: React.FC<IThemeModeContext> = ({
+  children,
+}) => {
   const [theme, toggleTheme] = useDarkMode();
   const themeMode = theme === "light" ? lightTheme : darkTheme;
 
