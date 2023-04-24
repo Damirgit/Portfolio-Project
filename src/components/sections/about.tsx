@@ -38,10 +38,10 @@ const About = () => {
         <motion.div variants={fadeLeft} className="about-text">
           <h3>Damir Fejzula</h3>
           <p>
-            I&lsquo;m a full-time software developer, and a first year college
-            student. Curently studying Information Technology at American
-            University of Europe - FON. My main focus these days are building
-            responsive and elegant web applications.
+           I am a web developer and a first-year University student
+            currently pursuing a degree in Information Technology at the
+            American University of Europe - FON. My primary focus these days is
+            on developing responsive and visually appealing web applications.
           </p>
         </motion.div>
         <motion.div className="image-wrapper" variants={fadeUp}>
