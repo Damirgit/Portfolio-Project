@@ -10,13 +10,12 @@ import {
 } from "../../styles/componentStyles";
 
 const Hero = () => {
-  const one = <h1>Hi there, I am</h1>;
+  const one = <h1>Hi there! My name is</h1>;
   const two = <h2>Damir Fejzula.</h2>;
   const three = <h3>I create websites for fun.</h3>;
   const four = (
     <p className="four">
-      Junior web developer based in Skopje,North Macedonia. I started my jurney
-      in october of 2021, one year later i'm still here:).
+     junior web developer based in Skopje, North Macedonia, I started my journey in this field back in October 2021. Since then, I'm excited to continue creating and innovating in this dynamic and ever-changing industry.
     </p>
   );
 
