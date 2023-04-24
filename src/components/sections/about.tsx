@@ -68,8 +68,8 @@ const About = () => {
             alt="Damir fejzula Photo"
             placeholder="blur"
             blurDataURL="/assets/me-mobile.jpg"
-            width={300}
-            height={300}
+            width={200}
+            height={200}
           />
         </motion.div>
       </StyledAboutContent>
