@@ -175,9 +175,9 @@ export const projects: IProjects[] = [
     image: "/assets/projects/Porfolio.png",
     alt: "Portfolio Website",
     info: "Portfolio Website for personal use.",
-    techs: ["Typescript", "React.js", "Next.js", "Styled Components"],
+    techs: ["Typescript", "HTML" ,"Next.js", "Styled Components"],
     links: {
-      github: "https://github.com/Damirgit/crypto",
+      github: "https://github.com/Damirgit/Portfolio-Project",
     },
   },
   {
