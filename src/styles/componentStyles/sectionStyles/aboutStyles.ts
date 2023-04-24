@@ -44,8 +44,8 @@ export const StyledAboutContent = styled(motion.div)`
 
   .image-wrapper-square {
     position: relative;
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     border-radius: var(--bdr);
     overflow: hidden;
     margin-top: 50px;
@@ -55,18 +55,18 @@ export const StyledAboutContent = styled(motion.div)`
     }
 
     @media only screen and (max-width: 480px) {
-      width: 230px;
-      height: 230px;
-    }
-
-    @media only screen and (max-width: 400px) {
       width: 200px;
       height: 200px;
     }
 
-    @media only screen and (max-width: 330px) {
-      width: 170px;
+    @media only screen and (max-width: 400px) {
+      width: 1700px;
       height: 170px;
+    }
+
+    @media only screen and (max-width: 330px) {
+      width: 150px;
+      height: 150px;
     }
   }
 
