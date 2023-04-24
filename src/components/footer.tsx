@@ -23,7 +23,7 @@ const Footer = () => {
         })}
       </StyledSocialLinks>
       <a
-        href="https://github.com/damirgit/fejzula-portfolio"
+        href="https://github.com/Damirgit/Portfolio-Project"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="Github repository of this portfolio website."
