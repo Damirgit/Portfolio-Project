@@ -187,7 +187,7 @@ export const projects: IProjects[] = [
     info: "todo app that shows vanila js skills",
     techs: ["Javascript", "HTML", "Css"],
     links: {
-      github: "https://github.com/Damirgit/crypto",
+      github: "https://github.com/Damirgit/Todo-app",
     },
   },
 ];
