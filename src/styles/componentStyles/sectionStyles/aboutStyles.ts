@@ -76,6 +76,14 @@ export const StyledAboutContent = styled(motion.div)`
     left: 0;
     z-index: 1;
   }
+  .about-image-square {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    width: 200px;
+    height: 200px;
+  }
   }
 
   .hidden-image {
